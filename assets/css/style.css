@@ -1,14 +1,3 @@
-/*
-Template Name: 
-Author:
-version:
-
------------------------------------------------------------
-Table of Contents
------------------------------------------------------------
-1) Common CSS
-*/
-
 /* Common CSS Start */
 body{
     font-family: 'Roboto', sans-serif;
@@ -26,4 +15,80 @@ ul{
 a:hover{
     text-decoration: none;
 }
+
+.bg{
+    background: #03203C !important;
+}
+
+.btn_bg{
+    background: #03203C !important;
+    border-color:  #03203C !important;
+}
+
+.text_clr{
+    color: #12B0E8;
+}
+
+.btn:focus{
+    border: none;
+    box-shadow: none;
+}
+
+.sectionTitle{
+    width: 50%;
+}
 /* Common CSS End */
+
+/* Banner CSS Start */
+.banner_content{
+    height: 600px;
+    position: relative;
+}
+
+.banner_content::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+}
+
+.banner_content img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner_text h1{
+    color: #fff;
+    font-size: 65px;
+    font-weight: 400;
+}
+
+.banner_text p{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* // Banner CSS End */
+
+/* Courses CSS Start */
+.courses{
+    margin-top: 100px;
+}
+/* // Courses CSS End */
+
+/* Register CSS Start */
+.register{
+    margin-top: 100px;
+    height: 250px;
+}
+/* // Register CSS End */
