@@ -12,8 +12,12 @@ ul{
     list-style-type: none;
 }
 
-a:hover{
+a{
     text-decoration: none;
+}
+
+.marginTop{
+    margin-top: 100px;
 }
 
 .bg{
@@ -23,6 +27,10 @@ a:hover{
 .btn_bg{
     background: #03203C !important;
     border-color:  #03203C !important;
+}
+
+.logo_clr{
+    color: #03203C;
 }
 
 .text_clr{
@@ -80,15 +88,52 @@ a:hover{
 }
 /* // Banner CSS End */
 
-/* Courses CSS Start */
-.courses{
-    margin-top: 100px;
-}
-/* // Courses CSS End */
-
 /* Register CSS Start */
 .register{
-    margin-top: 100px;
     height: 250px;
 }
 /* // Register CSS End */
+
+/* Question CSS Start */
+.accordion-button:focus{
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+    background: #03203C;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #03203C;
+    color: #fff;
+    box-shadow: none;
+}
+/* // Question CSS End */
+
+/* Footer CSS Start */
+.footer{
+    background: #161616;
+    height: 250px;
+}
+
+.footer p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.footer a {
+    display: inline-block;
+    color: #fff;    
+    margin-bottom: 15px;
+}
+
+.footer i{
+    background: #242B2E;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+/* // Footer 'CSS End */
