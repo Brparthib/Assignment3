@@ -45,6 +45,26 @@ a{
 .sectionTitle{
     width: 50%;
 }
+
+.custombtn{
+    border: 1px solid #12B0E8;
+    color: #12B0E8;
+    transition: all .5s;
+}
+
+.custombtn:hover,
+.custombtn:focus{
+    background: #12B0E8;
+    color: #fff;
+}
+
+.custombtn2,
+.custombtn2:focus,
+.custombtn2:hover{
+    background-color: #12B0E8;
+    border: 1px solid #12B0E8;
+    color: #fff;
+}
 /* Common CSS End */
 
 /* Banner CSS Start */
@@ -91,6 +111,10 @@ a{
 /* Register CSS Start */
 .register{
     height: 250px;
+}
+
+.register .form-control{
+    background-color: #061b30 !important;
 }
 /* // Register CSS End */
 
